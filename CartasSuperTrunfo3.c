@@ -29,7 +29,7 @@ int main () {
      printf("Digite o código da primeira carta (ex: A01): ");
      scanf(" %s", codigo1);
      printf("Digite o nome da cidade: ");
-     scanf(" %49s", &cidade1); //Evita o estouro de buffer
+     scanf(" %49s", cidade1); //Evita o estouro de buffer
      printf("Digite a população da cidade: ");
      scanf(" %d", &populacao1);
      printf("Digite a área da cidade (km²): ");
