@@ -27,7 +27,7 @@ int main () {
      printf("Digite o estado (A-H) da primeira carta: ");
      scanf(" %c", &estado1);
      printf("Digite o código da primeira carta (ex: A01): ");
-     scanf(" %s", &codigo1);
+     scanf(" %s", codigo1);
      printf("Digite o nome da cidade: ");
      scanf(" %49s", &cidade1); //Evita o estouro de buffer
      printf("Digite a população da cidade: ");
